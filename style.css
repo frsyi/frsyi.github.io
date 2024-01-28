@@ -162,7 +162,8 @@ body {
 }
 
 .home .couple{
-    margin-top: 100px;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
 }
 
 .home .couple h3 {
@@ -474,7 +475,7 @@ body {
 .thanks h4 {
     color: var(--pink);
     font-family: 'Sacramento';
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 500;
     margin: 5rem;
 }
