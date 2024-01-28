@@ -544,7 +544,7 @@ footer li {
         font-size: 75%;
     }
 
-    .simply-countdown>.simply-section{
+    .simply-countdown > .simply-section{
         padding: 70px;
     }
 
@@ -588,7 +588,7 @@ footer li {
         font-size: 65%;
     }
 
-    .simply-countdown>.simply-section{
+    .simply-countdown > .simply-section{
         padding: 60px;
         margin: 5px;
     }
@@ -609,14 +609,23 @@ footer li {
 }
 
 /* mobile */
-@media (max-width: 576px) {
+@media (max-width: 536px) {
     html {
         font-size: 60%;
     }
-
-    .simply-countdown>.simply-section{
-        padding: 45px;
+ 
+    .simply-countdown > .simply-section{
+        padding: 40px;
         margin: 3px;
+    }
+
+    .mynavbar .nav-link {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .mynavbar .offcanvas {
+        width: 80%;
     }
 
     .timeline li .timeline-image {
