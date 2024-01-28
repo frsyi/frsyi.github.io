@@ -620,43 +620,10 @@ footer li {
         margin: 3px;
     }
 
-    .mynavbar .container {
-        padding-right: 0;
-        padding-left: 0;
+    .mynavbar {
+        background-color: rgba(255, 255, 255, 0.3) !important;
+        backdrop-filter: none;
     }
-
-    .mynavbar .navbar-brand {
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    .mynavbar .navbar-toggler {
-        order: +1;
-    }
-
-    .mynavbar .navbar-nav {
-        margin-top: 1rem;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .mynavbar .nav-link {
-        margin: 0.5rem 0;
-    }
-
-    /* .mynavbar .nav-link {
-        font-size: 1.5rem;
-        text-align: center;
-    }
-
-    .mynavbar .navbar-brand,
-    .mynavbar .offcanvas-title {
-        font-size: 2.5rem;
-    }
-
-    .mynavbar .offcanvas {
-        width: 75%;
-    } */
 
     .timeline li .timeline-image {
         width: 80px;
