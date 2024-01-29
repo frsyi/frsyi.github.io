@@ -55,6 +55,8 @@ body {
     background-color: white;
     box-shadow: var(--shadow);
     margin-top: 3rem;
+    border-radius: 20px;
+    padding: 8px 15px;
 }
 
 .hero a:hover,
@@ -264,7 +266,7 @@ body {
 
 .story span {
     color: #666;
-    font-size: 1rem;
+    font-size: 1.1rem;
     letter-spacing: 1px;
     display: block;
     margin-bottom: 1rem;
