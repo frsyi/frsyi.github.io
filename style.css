@@ -63,6 +63,12 @@ body {
     color: white;
 }
 
+.hero main img {
+    max-width: 40%;
+    height: auto;
+    margin-bottom: 2rem; 
+}
+
 .mynavbar {
     background-color: rgba(255, 255, 255, 0.5) !important;
     backdrop-filter: blur(3px);
@@ -256,7 +262,14 @@ body {
     padding-bottom: 8rem;
 }
 
-.story span,
+.story span {
+    color: #666;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 1rem;
+}
+
 .gallery span,
 .gifts span {
     text-transform: uppercase;
@@ -460,24 +473,33 @@ body {
     background-image: url(img/bg-thanks.png);
     background-size: cover;
     background-position: center;
-    min-height: 90vh;
+    min-height: 100vh;
     margin-top: -6rem;
-    padding-top: 15rem;
+    padding-top: 10rem;
 }
 
 .thanks h3 {
     color: #444;
-    font-size: 1.2rem;
+    font-family: 'Sacramento';
+    font-size: 2rem;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
 }
+
+.thanks-image {
+    max-width: 50%;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
 
 .thanks h4 {
     color: var(--pink);
     font-family: 'Sacramento';
     font-size: 5rem;
     font-weight: 500;
-    margin: 5rem;
+    margin: 1rem;
 }
   
 footer {
@@ -616,7 +638,7 @@ footer li {
     }
  
     .simply-countdown > .simply-section{
-        padding: 40px;
+        padding: 38px;
         margin: 3px;
     }
 
