@@ -205,6 +205,15 @@ body {
     box-shadow: #444;
 }
 
+.home .couple .dan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .info {
     background-color: #c1ada4;
     color: white;
@@ -561,6 +570,10 @@ footer li {
     .home .heart {
         transform: translateX(-50%) translateY(45px);
     }
+
+    .home .couple .dan {
+        display: none;
+    }
 }
 
 /* laptop */
@@ -574,6 +587,10 @@ footer li {
     }
 
     .home .heart {
+        display: none;
+    }
+
+    .home .couple .dan {
         display: none;
     }
 
@@ -616,6 +633,10 @@ footer li {
     .simply-countdown > .simply-section{
         padding: 60px;
         margin: 5px;
+    }
+
+    .home .couple .dan {
+        display: flex;
     }
 
     .mynavbar .nav-link {
